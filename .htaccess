@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond  %{REMOTE_ADDR} !95.25.41.117
+RewriteCond %{REQUEST_FILENAME} !teh.jpg
+RewriteRule ^(.*)$ teh.html [L,QSA]
